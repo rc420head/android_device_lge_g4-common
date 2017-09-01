@@ -213,8 +213,8 @@ PRODUCT_PACKAGES += \
     liboverlay
 
 # QuickCircle Case App
-PRODUCT_PACKAGES += \
-    FlipFlap
+# PRODUCT_PACKAGES += \
+#     FlipFlap
 
 # Keymaster
 PRODUCT_PACKAGES += \
