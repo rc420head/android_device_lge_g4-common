@@ -202,11 +202,9 @@ PRODUCT_PACKAGES += \
     android.hardware.graphics.composer@2.1-impl \
     android.hardware.graphics.mapper@2.0-impl \
     android.hardware.memtrack@1.0-impl \
-    copybit.msm8992 \
     gralloc.msm8992 \
     hwcomposer.msm8992 \
-    memtrack.msm8992 \
-    liboverlay
+    memtrack.msm8992
 
 # QuickCircle Case App
 # PRODUCT_PACKAGES += \
@@ -266,6 +264,15 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.power@1.0-impl \
     power.msm8992
+
+# QMI
+PRODUCT_PACKAGES += \
+    libjson \
+    libtinyxml
+
+# RenderScript HAL
+PRODUCT_PACKAGES += \
+    android.hardware.renderscript@1.0-impl
 
 # Sensors
 PRODUCT_PACKAGES += \
